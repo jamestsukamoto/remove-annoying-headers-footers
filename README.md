@@ -24,9 +24,9 @@ Get rid of those pesky, screen-hogging banners/footers on Medium blogs. On my 13
 
 ## Hackernoon
 
-    const topBar = document.querySelector('div.metabar.u-clearfix.js-metabar.u-textColorDarker.u-tintBgColor.u-tintSpectrum.u-fixed.u-backgroundTransparentWhiteDarkest.u-xs-sizeFullViewportWidth');
+    const topBar = document.querySelector('div.metabar.u-clearfix.js-metabar.u-boxShadow4px12pxBlackLightest.u-textColorDarker.u-fixed.u-backgroundTransparentWhiteDarkest.u-xs-sizeFullViewportWidth');
     
-    const updateBanner = document.querySelector(' div.u-fixed.u-bottom0.u-width100pct.u-backgroundWhite.u-boxShadowTop.u-borderBox.u-paddingTop10.u-paddingBottom10.u-zIndexMetabar.u-xs-paddingLeft10.u-xs-paddingRight10.js-stickyFooter');
+    const updateBanner = document.querySelector('div.u-fixed.u-bottom0.u-width100pct.u-backgroundWhite.u-boxShadowTop.u-borderBox.u-paddingTop10.u-paddingBottom10.u-zIndexMetabar.u-xs-paddingLeft10.u-xs-paddingRight10.js-stickyFooter');
    
     topBar.remove();
     
